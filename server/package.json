@@ -1,0 +1,6 @@
+{
+  "description": "Apple Push Notification Server Demo",
+  "dependencies": {
+    "apn": ""
+  }
+}
