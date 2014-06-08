@@ -52,3 +52,33 @@ d. use `cert.p12` and `key.p12` generate `cert.pem` and `key.pem`
 $ openssl pkcs12 -in cert.p12 -out cert.pem -nodes
 $ openssl pkcs12 -in key.p12 -out key.pem -nodes
 </pre>
+
+=============
+
+###2. App
+
+- App Name `com.zlargon.apns-app-demo`
+- set App Provisioning Profile<br>
+*`apns-app-demo.xcodeproj`* > `Build Settings` > `Code Signing` > `Provisioning Profile` > *`APNS App Demo`*
+
+=============
+
+###3. Server
+
+**node-apn**<br>
+[https://github.com/argon/node-apn](https://github.com/argon/node-apn)
+
+- **Install Node Module**<br>
+<pre>
+$ cd server
+$ npm install
+</pre>
+
+- **Test**<br>
+copy the `device token` from App with XCode console, and add to device token array in `push-notification.js`
+<pre>
+$ node push-notification.js
+</pre>
+
+- **Notice**<br>
+notification only shows up when the app is **backgrounded** or **killed**<br>
