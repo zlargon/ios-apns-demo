@@ -394,6 +394,7 @@
 				GCC_PREFIX_HEADER = "apns-app-demo/apns-app-demo-Prefix.pch";
 				INFOPLIST_FILE = "apns-app-demo/apns-app-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31C54D29-8EC0-4144-95B8-AC5C6B573877";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,6 +408,7 @@
 				GCC_PREFIX_HEADER = "apns-app-demo/apns-app-demo-Prefix.pch";
 				INFOPLIST_FILE = "apns-app-demo/apns-app-demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31C54D29-8EC0-4144-95B8-AC5C6B573877";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +472,7 @@
 				CFF001661944D4B3000BD336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF001671944D4B3000BD336 /* Build configuration list for PBXNativeTarget "apns-app-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +481,7 @@
 				CFF001691944D4B3000BD336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
