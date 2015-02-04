@@ -2,7 +2,7 @@ var apn = require("apn");
 
 // get device token from app
 var tokens = [
-  "<e32a9af4 5529f636 6d2c5fa6 700f5737 086a5c82 e532f2e3 13ba7657 5e602fec>"
+  "<ea579dbc 9b2095fb a20f5be5 21cddefb 88edc8b6 6f15d40f 1547e5ef 88db2a5f>"
 ];
 
 // APNS Service
